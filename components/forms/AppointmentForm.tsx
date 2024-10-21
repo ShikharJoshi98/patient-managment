@@ -102,7 +102,7 @@ export const AppointmentForm = ({
           },
           type,
         };
-
+        //@ts-ignore-next-line
         const updatedAppointment = await updateAppointment(appointmentToUpdate);
 
         if (updatedAppointment) {
